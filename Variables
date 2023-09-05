@@ -1,0 +1,13 @@
+#! /bin/bash
+
+# This is second script - Introduction to Variables
+# Variables are tpe of containers or an area of storage that can hold something in the memory. That something can be letters, words, characters..... 
+# Values within the variables are changeable.
+
+echo "What is your name ?"
+read name 
+
+echo "Which script is this ?"
+read number
+
+echo "Welcome" $name "to the" $number "script of Shell-Scripting Repo." 
