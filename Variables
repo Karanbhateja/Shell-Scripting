@@ -11,3 +11,7 @@ echo "Which script is this ?"
 read number
 
 echo "Welcome" $name "to the" $number "script of Shell-Scripting Repo." 
+# In this echo line Spaces will be automatically added between Welcome and Name Variable as they are different strings (in different Double inverted Commmas)
+
+# If we want to explicitily handle the spaces then we have to write it as - 
+echo echo "Welcome $name to the $number script of Shell-Scripting Repo."           # (In single String)
